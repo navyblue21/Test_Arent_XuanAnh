@@ -1,0 +1,15 @@
+@import 'styles/index.css';
+
+html{
+    position:relative; 
+    min-height: 100%;
+}
+body{
+    /* overflow: hidden; */
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.App{
+    margin: 56px 160px 64px 160px;
+}

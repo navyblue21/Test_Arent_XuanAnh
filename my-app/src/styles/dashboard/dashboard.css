@@ -1,0 +1,45 @@
+.wrapper-recommend {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 56px 0;
+}
+.wrapper-recommend-item {
+  width: 216px;
+  height: 144px;
+  background-color: #2E2E2E;
+  text-align: center;
+  margin: 0 16px;
+}
+.wrapper-recommend-item:first-child {
+  margin-left: 0 !important;
+}
+.wrapper-recommend-item:last-child {
+  margin-right: 0 !important;
+}
+.wrapper-recommend-item_title {
+  color: #FFCC21;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.11px;
+  margin-bottom: 10px;
+}
+.wrapper-recommend-item_line {
+  margin: 0 80px 10px 80px;
+}
+.wrapper-recommend-item_label {
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.wrapper-post_item {
+  width: 234px;
+  height: 144.47px;
+}
+.wrapper-post_item img {
+  width: 100%;
+}/*# sourceMappingURL=dashboard.css.map */

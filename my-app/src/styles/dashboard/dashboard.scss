@@ -1,0 +1,49 @@
+.wrapper-recommend{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 56px 0;
+
+    &-item{
+        width: 216px;
+        height: 144px;
+        background-color: #2E2E2E;
+        text-align: center;
+        margin: 0 16px;
+        &:first-child{
+            margin-left: 0 !important;
+        }
+        &:last-child{
+            margin-right: 0 !important;
+        }
+        &_title{
+            color: #FFCC21;
+            // font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 27px;
+            text-align: center;
+            letter-spacing: 0.11px;
+            margin-bottom: 10px;
+        }
+        &_line{
+            margin: 0 80px 10px 80px;
+        }
+        &_label{
+            color: white;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 26px;
+        }
+    }
+}
+
+.wrapper-post{
+    &_item{
+        width: 234px;
+        height: 144.47px;
+        img{
+            width: 100%;
+        }
+    }
+}

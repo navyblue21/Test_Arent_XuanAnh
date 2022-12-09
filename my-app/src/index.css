@@ -1,0 +1,13 @@
+@import './App.css';
+
+@font-face {
+  font-family: 'Hiragino Kaku Gothic Pro';
+  src: url('/public/font/Hiragino_Kaku_Gothic_Pro.otf');;
+}
+
+body {
+  margin: 0;
+  font-family: 'Hiragino Kaku Gothic Pro',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

@@ -1,0 +1,146 @@
+:root {
+    --primColor: #dcdcdc;
+    --secoColor: #555555;
+    --cornerRad: 4px;
+  }
+
+.wrapper-header{
+    background-color: #414141;
+    padding: 0 160px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        width: 144px;
+        position: relative;
+        top: 0;
+        display: flex;
+        align-items: center;
+        &-img{
+            width: 100%;
+            position: absolute;
+            // height: 64px
+            // top: -40px
+            
+        }
+        
+    }
+    .header-icon-list{
+        display: flex;
+        align-items: center;
+        &-wrapper{
+            display: flex;
+            align-items: center;
+            // margin: 0 16px;
+            width: 160px;
+            .header-icon-text{
+                color: white;
+                font-weight: 300;
+            }
+            .header-icon{
+                margin-right: 8px;
+            }
+        }
+        .wrapper-icon-menu{
+            // display: flex;
+            margin-left: 16px;
+            position: relative;
+            width: 26px;
+            #menu-toggle {
+                opacity: 0;
+              }
+              #menu-toggle:checked + .menu-btn > span {
+                transform: rotate(45deg);
+              }
+              #menu-toggle:checked + .menu-btn > span::before {
+                top: 0;
+                transform: rotate(0deg);
+              }
+              #menu-toggle:checked + .menu-btn > span::after {
+                top: 0;
+                transform: rotate(90deg);
+              }
+              #menu-toggle:checked ~ .menu-box {
+                right: 0 !important;
+              }
+              .menu-btn {
+                // position: fixed;
+                width: 32px;
+                height: 32px;
+                cursor: pointer;
+                z-index: 1;
+              }
+              .menu-btn > span,
+              .menu-btn > span::before,
+              .menu-btn > span::after {
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                background-color: #FF963C;
+                transition-duration: .25s;
+                top: 10px
+              }
+              .menu-btn > span::before {
+                content: '';
+                top: -8px;
+              }
+              .menu-btn > span::after {
+                content: '';
+                top: 8px;
+              }
+              .menu-box {
+                display: block;
+                position: absolute;
+                top: 15px;
+                right: -700px;
+                width: 280px;
+                list-style: none;
+                transition-duration: .25s;
+                li{
+                  height: 72px;
+                }
+              }
+              .menu-item {
+                display: block;
+                padding: 23px 32px;
+                color: white;
+                font-size: 18px;
+                font-weight: 300;
+                text-decoration: none;
+                transition-duration: .25s;
+                background-color: #777777;
+                border-bottom: 2px solid rgba($color: #2E2E2E, $alpha: .25);
+                border-top: 1px solid rgba($color: #000000, $alpha: .15);
+              }
+              .menu-item:hover {
+                background-color: #CFD8DC;
+              }
+            
+        }
+
+        .wrapper-icon-info{
+            .wrapper-baggage{
+                position: relative;
+                &_bg{
+                    position: absolute;
+                    border-radius: 50%;
+                    width: 16px;
+                    height: 16px;
+                    background-color: #EA6C00;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    top: -7px;
+                    left: -16px;
+                }
+                &_number{
+                    color: white;
+                    font-size: 10px;
+                    font-family: 'Inter';
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
