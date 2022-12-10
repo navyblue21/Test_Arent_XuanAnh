@@ -5,6 +5,11 @@
   src: url('/public/font/Hiragino_Kaku_Gothic_Pro.otf');;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('/public/font/Inter-VariableFont_slnt\,wght.ttf');;
+}
+
 body {
   margin: 0;
   font-family: 'Hiragino Kaku Gothic Pro',sans-serif;

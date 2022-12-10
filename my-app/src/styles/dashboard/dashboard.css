@@ -1,22 +1,25 @@
-.wrapper-recommend {
+.column-page {
+  margin: 56px 160px 64px 160px;
+}
+.column-page .wrapper-recommend {
   display: flex;
   justify-content: space-between;
   margin: 0 0 56px 0;
 }
-.wrapper-recommend-item {
+.column-page .wrapper-recommend-item {
   width: 216px;
   height: 144px;
   background-color: #2E2E2E;
   text-align: center;
   margin: 0 16px;
 }
-.wrapper-recommend-item:first-child {
+.column-page .wrapper-recommend-item:first-child {
   margin-left: 0 !important;
 }
-.wrapper-recommend-item:last-child {
+.column-page .wrapper-recommend-item:last-child {
   margin-right: 0 !important;
 }
-.wrapper-recommend-item_title {
+.column-page .wrapper-recommend-item_title {
   color: #FFCC21;
   font-style: normal;
   font-weight: 400;
@@ -24,22 +27,91 @@
   line-height: 27px;
   text-align: center;
   letter-spacing: 0.11px;
-  margin-bottom: 10px;
+  margin-top: 24px;
 }
-.wrapper-recommend-item_line {
+.column-page .wrapper-recommend-item_line {
   margin: 0 80px 10px 80px;
+  opacity: 1 !important;
 }
-.wrapper-recommend-item_label {
+.column-page .wrapper-recommend-item_label {
   color: white;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
 }
-
-.wrapper-post_item {
-  width: 234px;
-  height: 144.47px;
+.column-page .wrapper-post-line {
+  margin-bottom: 18px;
+  margin-left: 0;
+  margin-right: 0;
 }
-.wrapper-post_item img {
+.column-page .wrapper-post_item .wrapper-post_img {
+  position: relative;
+  margin-bottom: 8px;
+  height: 144.47px;
+  margin-right: 8px;
+}
+.column-page .wrapper-post_item .wrapper-post_img:nth-child(2n+4) {
+  margin-right: 0 !important;
+}
+.column-page .wrapper-post_item .wrapper-post_img img {
   width: 100%;
+  height: 100%;
+}
+.column-page .wrapper-post_item .wrapper-post_img .img-time {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #FFCC21;
+  width: 144px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.column-page .wrapper-post_item .wrapper-post_img .img-time * {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+.column-page .wrapper-post_item .post_item-description {
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.075px;
+  margin: 0 !important;
+}
+.column-page .wrapper-post_item .post_item-tag {
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 22px;
+  letter-spacing: 0.06px;
+  color: #FF963C;
+  margin-right: 8px;
+}
+.column-page .wrapper-read-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 26px;
+}
+.column-page .wrapper-read-more .btn-more {
+  background: linear-gradient(32.95deg, #FFCC21 8.75%, #FF963C 86.64%);
+  text-align: center;
+  width: 296px;
+  height: 56px;
+}
+.column-page .wrapper-read-more .btn-more span {
+  color: white;
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
 }/*# sourceMappingURL=dashboard.css.map */

@@ -1,4 +1,8 @@
+import { handleScrollTop } from "../../helper/helpFunction";
+
 const FooterPage = () => {
+    
+
     return (
         <>
             <div className="wrapper-footer">
@@ -11,6 +15,10 @@ const FooterPage = () => {
                     <span>お問い合わせ</span>
                 </div>
                 
+            </div>
+
+            <div className="wrapper-scroll-top">
+                <img src="../svg-icon/scroll.svg" alt="" onClick={handleScrollTop}/>
             </div>
         </>
     )
